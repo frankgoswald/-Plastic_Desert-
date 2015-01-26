@@ -1,0 +1,32 @@
+html {
+  background: url("../images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#grade_overlay {
+  z-index: -1;
+  margin-top: -150px;
+  margin-right: -50px;
+  margin-left: -50px;
+  height: 100vh;
+  background-attachment: fixed;
+  background: -webkit-linear-gradient(left top, left bottom,  rgba(255,255,255,0) 53%,rgba(255,255,255,0.96) 98%,rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(53%,rgba(255,255,255,0)), color-stop(98%,rgba(255,255,255,0.96)), color-stop(100%,rgba(255,255,255,1)));
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 53%, rgba(255,255,255,0.96) 98%, rgba(255,255,255,1) 100%);
+}
+
+#text {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Exo 2', sans-serif;
+  z-index: 1;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
