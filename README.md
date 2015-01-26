@@ -1,2 +1,3 @@
-# PLASTIC_DESERT
+# Plastic_Desert
 painting
+by: Frank G. Oswald
